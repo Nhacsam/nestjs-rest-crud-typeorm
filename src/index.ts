@@ -1,0 +1,1 @@
+export { CrudTypeormRepository } from './CrudTypeormRepository';
