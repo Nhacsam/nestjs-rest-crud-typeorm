@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib"
+  },
+  "include": ["src"],
+  "exclude": ["lib"],
+  "references": [
+    { "path": "../nestjs-api-utils" },
+    { "path": "../nestjs-rest-crud" }
+  ]
+}
